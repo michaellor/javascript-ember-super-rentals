@@ -1,4 +1,5 @@
-{ "rentals": [{
+{
+  "rentals": [{
   "id": 1,
   "owner": "Veruca Salt",
   "city": "San Francisco",

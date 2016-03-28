@@ -3,10 +3,17 @@
 <p>We hope you find exactly what you're looking for in a place to stay.</p>
 
 <ul>
-  {{#each model as |rental|}}
+  {{#each model.rentals as |rental|}}
     {{rental-title rental=rental destroyRental="destroyRental"}}
   {{/each}}
 </ul>
+
+<!-- USED IN PAIR W/ MODEL FUNCTION FROM APP/ROUTES/INDEX.JS FILE -->
+<!-- <ul>
+  {{#each model.announcements as |announcement|}}
+    {{announcement-title announcement=announcement}}
+  {{/each}}
+</ul> -->
 
 <br>{{new-rental save2="save3"}}
 
