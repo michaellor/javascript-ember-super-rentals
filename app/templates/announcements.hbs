@@ -1,0 +1,10 @@
+{{output}}
+<ul>
+  {{#each model as |announcement|}}
+    {{announcement-title announcement=announcement}}
+  {{/each}}
+</ul>
+
+<br>{{#link-to 'index'}}Home{{/link-to}}
+<br>{{#link-to 'about'}}About{{/link-to}}
+<br>{{#link-to 'contact'}}Click here to contact us.{{/link-to}}

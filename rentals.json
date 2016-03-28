@@ -19,5 +19,11 @@
   "type": "Apartment",
   "bedrooms": 3,
   "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
-}]
+}], "announcements": [{
+  "title": "Big Sale!!!",
+  "description": "50% off all rentals in Portland!"
+  }, {
+  "title": "Small sale",
+  "description": "5% off all rentals in Seattle since Portland is superior."
+  }]
 }
